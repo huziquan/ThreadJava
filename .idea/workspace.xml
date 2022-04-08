@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="136377de-edc8-4c4e-ab8b-97b2586f77b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/LeeCode/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/LeeCode/Soletion1344.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/LeeCode/Solution2007.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/LeeCode/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/LeeCode/Solution537.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/CountSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/HeapSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/SelectionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/Sort/ShellSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread11Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread13Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread14Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread15Page$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread15Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread17Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread20Page01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread20Page02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread21Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread22Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread23Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/Deamon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/LockA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/LockB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/LockSupportTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/LockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/MainTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/OutOfOrderExecution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/OutOfOrderExecution$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/OutOfOrderExecution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/ReadAndWriteLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/StopThreadDemo02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestThreadLocal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestThreadLocal$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestYeild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/ThreadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/Tickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/Tickets02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TreadInterrupt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/UseExecutors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/UseRunnable$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/UseRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/UseThread$MyTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/UseThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/VolaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/WaitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/Thred10Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/atomic/AtomicPage29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/atomic/AtomicPage31$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/com/company/atomic/AtomicPage31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Dp1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/FoundCity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Test03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Test04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Test05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/Test06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/huawei/dp02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/zijietiaodong/String01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ThreadJava/zijietiaodong/String02.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>H:\gitRepositories\ThreadJava</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="huziquan" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="ThreadJava" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Thread22Page.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Thread21Page.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Thread23Page.java" />
+        <option value="$PROJECT_DIR$/src/com/company/atomic/AtomicPage29.java" />
+        <option value="$PROJECT_DIR$/src/com/company/atomic/AtomicPage31.java" />
+        <option value="$PROJECT_DIR$/src/LeeCode/Main.java" />
+        <option value="$PROJECT_DIR$/src/LeeCode/Solution3.java" />
+        <option value="$PROJECT_DIR$/src/Sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/CountSort.java" />
+        <option value="$PROJECT_DIR$/src/huawei/Test05.java" />
+        <option value="$PROJECT_DIR$/src/huawei/Test06.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/UseThread.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/UseRunnable.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/ThreadUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/Deamon.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/zijietiaodong/String01.java" />
+        <option value="$PROJECT_DIR$/src/zijietiaodong/String02.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/TestJoin.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/outofTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/OutOfOrderExecution.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/VolaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/Tickets.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/TestThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/LockTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/WaitTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/TestYeild.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/TreadInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/LockSupportTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/Tickets02.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/ReadAndWriteLockTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ThreadTest/UseExecutors.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="211" />
+    <option name="y" value="14" />
+    <option name="width" value="1385" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ThreadJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThreadJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649410918574" />
+    <property name="last_opened_file_path" value="H:/IDEAWorkSpace/gaojing" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WaitTest">
+    <configuration name="LockSupportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThreadTest.LockSupportTest" />
+      <module name="ThreadJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadAndWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThreadTest.ReadAndWriteLockTest" />
+      <module name="ThreadJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tickets02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThreadTest.Tickets02" />
+      <module name="ThreadJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThreadTest.UseExecutors" />
+      <module name="ThreadJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ThreadTest.WaitTest" />
+      <module name="ThreadJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LockSupportTest" />
+      <item itemvalue="Application.Tickets02" />
+      <item itemvalue="Application.ReadAndWriteLockTest" />
+      <item itemvalue="Application.UseExecutors" />
+      <item itemvalue="Application.WaitTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WaitTest" />
+        <item itemvalue="Application.UseExecutors" />
+        <item itemvalue="Application.ReadAndWriteLockTest" />
+        <item itemvalue="Application.Tickets02" />
+        <item itemvalue="Application.LockSupportTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="136377de-edc8-4c4e-ab8b-97b2586f77b3" name="Default Changelist" comment="" />
+      <created>1637392407145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637392407145</updated>
+      <workItem from="1637392408240" duration="1707000" />
+      <workItem from="1637460713492" duration="1863000" />
+      <workItem from="1637585343986" duration="3278000" />
+      <workItem from="1637763720754" duration="594000" />
+      <workItem from="1637843219623" duration="4849000" />
+      <workItem from="1637853463696" duration="108000" />
+      <workItem from="1637986687640" duration="2791000" />
+      <workItem from="1638114587813" duration="398000" />
+      <workItem from="1638285556395" duration="1001000" />
+      <workItem from="1638286739819" duration="286000" />
+      <workItem from="1638287028265" duration="192000" />
+      <workItem from="1638365055314" duration="1207000" />
+      <workItem from="1638445907171" duration="4439000" />
+      <workItem from="1638614889762" duration="6440000" />
+      <workItem from="1638960800821" duration="1218000" />
+      <workItem from="1639052903073" duration="600000" />
+      <workItem from="1639215495042" duration="4201000" />
+      <workItem from="1639633665845" duration="101000" />
+      <workItem from="1640137983273" duration="596000" />
+      <workItem from="1640660173305" duration="8929000" />
+      <workItem from="1640861372753" duration="597000" />
+      <workItem from="1641362846100" duration="40000" />
+      <workItem from="1647831993264" duration="6259000" />
+      <workItem from="1648017314056" duration="15037000" />
+      <workItem from="1648174885808" duration="10135000" />
+      <workItem from="1648283780373" duration="4607000" />
+      <workItem from="1648429760422" duration="1198000" />
+      <workItem from="1648518670792" duration="601000" />
+      <workItem from="1648534697846" duration="3051000" />
+      <workItem from="1648696678529" duration="4978000" />
+      <workItem from="1648800255799" duration="11582000" />
+      <workItem from="1648869294484" duration="5230000" />
+      <workItem from="1648956515417" duration="3513000" />
+      <workItem from="1648975193104" duration="5204000" />
+      <workItem from="1649073793852" duration="3610000" />
+      <workItem from="1649123257857" duration="4254000" />
+      <workItem from="1649204166611" duration="1061000" />
+      <workItem from="1649337306610" duration="876000" />
+      <workItem from="1649400631282" duration="1686000" />
+    </task>
+    <task id="LOCAL-00001" summary="在家里面更新">
+      <created>1637392497251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637392497251</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新了单例模式下的双重检查，但还是有点问题">
+      <created>1638113177383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638113177383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新了单例模式下的双重检查，但还是有点问题">
+      <created>1638287060363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638287060363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12月2号的测试">
+      <created>1638457613067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638457613067</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12月4号的测试，学习CAS，稍微知道Atomic和LongAdder新东西，理解下分段锁这个小东西">
+      <created>1638630881155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638630881155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="遇到的一些算法题">
+      <created>1639633745955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639633745955</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加一些算法题">
+      <created>1640705850204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640705850204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="遇到的算法以及线程部分方法的了解">
+      <created>1649409742451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649409742452</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128317000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="211" y="14" width="1385" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24905661" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7782516" weight="0.27144408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29858848" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6913208" visible="true" weight="0.33223686" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.30867925" side_tool="true" weight="0.33223686" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.36047775" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2388708" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../git" />
+    </ignored-roots>
+    <MESSAGE value="在家里面更新" />
+    <MESSAGE value="在家里面更新,随意内容不多" />
+    <MESSAGE value="更新了单例模式下的双重检查，但还是有点问题" />
+    <MESSAGE value="12月2号的测试" />
+    <MESSAGE value="12月4号的测试，学习CAS，稍微知道Atomic和LongAdder新东西，理解下分段锁这个小东西" />
+    <MESSAGE value="遇到的一些算法题" />
+    <MESSAGE value="添加一些算法题" />
+    <MESSAGE value="遇到的算法以及线程部分方法的了解" />
+    <option name="LAST_COMMIT_MESSAGE" value="遇到的算法以及线程部分方法的了解" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Thread21Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Thread22Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Thread23Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/atomic/AtomicPage29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/atomic/AtomicPage31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeeCode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeeCode/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="56" column="54" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="56" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/CountSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="35" column="5" selection-start-line="28" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Test05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Test06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/FoundCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Test03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Test04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Test02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/Dp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/dp02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/String01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="41" column="75" lean-forward="true" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/String02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/outofTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/ThreadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/Deamon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ThreadJava/com/company/Thread22Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ThreadJava/com/company/ThreadTest/TestJoin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/Deamon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/OutOfOrderExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/UseRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/UseThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/VolaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/TestThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/TestYeild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/TreadInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/Tickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/Tickets02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/LockSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/ReadAndWriteLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/UseExecutors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ThreadTest/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ThreadJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
